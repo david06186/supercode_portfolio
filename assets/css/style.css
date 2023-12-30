@@ -1,0 +1,64 @@
+/* - Universal Selectors */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* - At-rules */
+@font-face {
+  font-family: 'Didact Gothic';
+  src: url(./assets/fonts/didact-gothic.woff2) format(woff2);
+}
+@font-face {
+  font-family: 'Fjalla One';
+  src: url(./assets/fonts/fjalla-one.woff2) format(woff2);
+}
+@font-face {
+  font-family: 'Work Sans';
+  src: url(./assets/fonts/work-sans.woff2) format(woff2);
+}
+
+/* - Classes */
+.didact-gothic {
+  font-family: 'Didact Gothic';
+}
+
+.fjalla-one {
+  font-family: 'Fjalla One';
+}
+
+.work-sans {
+  font-family: 'Work Sans';
+}
+
+/* - IDs */
+#orbis {
+  background-image: url('/assets/img/handshake.jpeg');
+}
+
+#rollr {
+  background-image: url('/assets/img/laptop.png');
+}
+
+#galitos {
+  background-image: url('/assets/img/bbq.jpeg');
+}
+
+#tretto {
+  background-image: url('/assets/img/phones.png');
+}
+
+#more {
+  background-color: black;
+}
+
+/* - Type Selectors */
+html {
+  font-size: 62.5%;
+}
