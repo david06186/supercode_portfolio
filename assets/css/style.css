@@ -13,15 +13,18 @@
 /* - At-rules */
 @font-face {
   font-family: 'Didact Gothic';
-  src: url(./assets/fonts/didact-gothic.woff2) format(woff2);
+  src: url(/assets/fonts/didact-gothic.woff2) format('woff2');
+  src: url(/assets/fonts/didact-gothic.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Fjalla One';
-  src: url(./assets/fonts/fjalla-one.woff2) format(woff2);
+  src: url(/assets/fonts/fjalla-one.woff2) format('woff2');
+  src: url(/assets/fonts/fjalla-one.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Work Sans';
-  src: url(./assets/fonts/work-sans.woff2) format(woff2);
+  src: url(/assets/fonts/work-sans.woff2) format('woff2');
+  src: url(/assets/fonts/work-sans..ttf) format('truetype');
 }
 
 /* - Classes */
@@ -35,6 +38,49 @@
 
 .work-sans {
   font-family: 'Work Sans';
+}
+
+.to-upper-case {
+  text-transform: uppercase;
+}
+
+.button--black {
+}
+
+.button--white {
+}
+
+.h2--black {
+  text-transform: uppercase;
+}
+
+.h2--white {
+}
+
+.h3--black {
+}
+
+.h3--white {
+}
+
+.description--black {
+  text-transform: capitalize;
+}
+
+.description--white {
+  text-transform: capitalize;
+}
+
+.section-nr--black {
+}
+
+.section-nr--white {
+}
+
+.year--black {
+}
+
+.year--white {
 }
 
 /* - IDs */
